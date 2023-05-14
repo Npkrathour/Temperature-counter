@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    h1{
+        text-align: center;
+    }
+    #container{
+        margin-top: 10%;
+        text-align: center;
+        background-color: aqua;
+        padding: 50px;
+       
+    }
+    .text{
+        font-size: larger;
+        font-weight: 600;
+    }
+    .input-div{
+        display: inline-block;
+        justify-content: center;
+    }
+    .inp{
+        display: inline-block;
+        padding: 15px 30px;
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Temperature Counter</h1>
+    <div id="container">
+     <div class="input-div">
+       <label class="text" for="celsius">Celsius</label><br>
+       <input type="number" id="cel" class="inp" value="0">
+     </div>
+     <div class="input-div">
+        <label class="text" for="fahrenheit">fahrenheit</label><br>
+        <input type="number"  id="far" class="inp" value="32">
+     </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
